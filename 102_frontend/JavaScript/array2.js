@@ -4,13 +4,19 @@ numeros.push (6)
 
 console.log(numeros);
 
-numeros.shift (1);
+numeros.shift();
 console.log(numeros);
 
 numeros.unshift(-3);
 console.log(numeros)
 
 console.log(numeros[3]);
+
+numeros.splice(2, 0, 17);
+console.log(numeros);
+
+numeros.splice(0, 2);
+console.log(numeros);
 
 //=====================================================================
 
